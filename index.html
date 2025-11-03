@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Portfolio</title>
+    <link rel="icon" href="img/logo-oriz.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Il Mio Portfolio - Marco" />
+    <meta property="og:description" content="Specializzato in UX/UI e design responsive." />
+    <meta property="og:image" content="https://www.shutterstock.com/search/domain-authority" />
+    <meta property="og:url" content="http://www.sito.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Il Mio Portfolio" />
+    </head>
+<body>
+    <div class="page-wrapper">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-oriz.png" alt="Logo" class="img-fluid" style="height: 50px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cv.html">CV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contattami</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center text-lg-start mb-4 mb-lg-0">
+                        <h1 class="display-3 fw-bold">Ciao, sono <span class="text-warning">Marco</span></h1>
+                        <p class="lead text-white-50 mt-3">Sono un UX/UI Designer con la passione per la creazione di esperienze digitali coinvolgenti e intuitive. Eccello nel trasformare idee complesse in soluzioni web pulite, funzionali e accattivanti.</p>
+                        <p class="lead text-white-50">Dai un'occhiata ai miei progetti o scarica il mio CV per saperne di più!</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                            <a href="cv.html" class="btn btn-warning btn-lg px-4 me-md-2 fw-bold">Vedi CV</a>
+                            <a href="#projects" class="btn btn-outline-light btn-lg px-4">I Miei Lavori</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-flex justify-content-center">
+                        <img src="img/home.png" class="img-fluid" alt="foto" style="max-width: auto; height: auto;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="banner" class="full-width-image-section position-relative d-flex align-items-center text-white text-center py-5">
+              <img src="img/banner.png" class="background-image img-fluid" alt="Banner citazione" >
+        </section>
+
+        <section id="projects" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">I Miei Lavori</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <a href="pdf/progetto1.pdf" target="_blank" class="portfolio-item-link">
+                            <img src="img/progetto1.jpeg" class="card-img-top" alt="Progetto 1">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Grafica Ux</h5>
+                                <p class="card-text text-muted">Progettazione completa di grafiche per brand con Mockup social</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <a href="pdf/progetto2.pdf" target="_blank" class="portfolio-item-link">
+                            <img src="img/progetto2.jpeg" class="card-img-top" alt="Progetto 2">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">User Interface</h5>
+                                <p class="card-text text-muted">Progettazione completa di interfacce utenti con un occhio di riguardo all'esperienza dell'utente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <a href="pdf/progetto3.pdf" target="_blank" class="portfolio-item-link">
+                            <img src="img/progetto3.jpeg" class="card-img-top" alt="Progetto 3">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Discovery</h5>
+                                <p class="card-text text-muted">Creazione di personas e di user journey in modo da permettere di identificare punti di forza e aree di miglioramento</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                             <a href="pdf/progetto4.pdf" target="_blank" class="portfolio-item-link">
+                            <img src="img/progetto4.jpeg" class="card-img-top" alt="Progetto 4">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">User Test</h5>
+                                <p class="card-text text-muted">Svolgimento di sessioni di test utente per valutare la chiarezza, l'usabilità e l'efficacia delle interfacce progettate. Analisi qualitativa e quantitativa dei risultati per individuare punti di miglioramento e ottimizzare l'esperienza complessiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                             <a href="pdf/progetto5.pdf" target="_blank" class="portfolio-item-link">
+                            <img src="img/progetto5.jpeg" class="card-img-top" alt="Progetto 5">
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Case Study 3Bee</h5>
+                                <p class="card-text text-muted">Analisi e redesign completo della piattaforma 3Bee, con focus sull'ottimizzazione dell'esperienza utente e della comunicazione visiva. Il progetto include ricerca utenti, creazione di personas, user journey, wireframe interattivi e prototipazione ad alta fedeltà</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-white-50 py-4 mt-auto">
+            <div class="container text-center">
+                <p>&copy; 2025 Marco Dipalma. Tutti i diritti riservati.</p>
+            
+                <div class="d-flex justify-content-center flex-wrap gap-4">
+                    <a href="https://github.com/tuo-username" target="_blank" class="text-white hover-yellow mx-2" aria-label="GitHub">
+                        <img src="img/icons/github.svg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/marco-dipalma-a9205816a/" target="_blank" class="text-white hover-yellow mx-2" aria-label="LinkedIn">
+                        <img src="img/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://www.instagram.com/m.dipalma000/" target="_blank" class="text-white hover-yellow mx-2" aria-label="instagram">
+                        <img src="img/icons/instagram.svg" alt="instagram" class="social-icon">
+                    </a>
+                    </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
